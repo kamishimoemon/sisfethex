@@ -7,7 +7,7 @@ Roles:
 - Institucional
 
 Reglas:
-- El botón "Nueva carrera" dirigirá a la pantalla "Crear y editar carrera"
+- El botón "Nueva carrera" dirigirá a la pantalla [Crear y editar carrera](./2-crear-y-editar-carrera.md)
 
 Feature: Filtrar carreras
 Campos:
@@ -30,4 +30,4 @@ Columnas:
 - Validez Nacional Otorgada por
 - Estado
 Reglas:
-- Debe haber un botón editar por fila que redirija a la pantalla "Crear y editar carrera" con los datos de la carrera seleccionada precargados
+- Debe haber un botón editar por fila que redirija a la pantalla [Crear y editar carrera](./2-crear-y-editar-carrera.md) con los datos de la carrera seleccionada precargados
