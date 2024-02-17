@@ -1,0 +1,26 @@
+{
+	"name": "kamishimoemon/sisfethex",
+	"type": "project",
+	"description": "Certificate's federal system made with hexagonal architecture",
+	"require-dev": {
+		"pestphp/pest": "^2.34"
+	},
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Sisfet\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Darío Candotti",
+			"email": "dario.candotti@gmail.com"
+		}
+	],
+	"require": {},
+	"config": {
+		"allow-plugins": {
+			"pestphp/pest-plugin": true
+		}
+	}
+}
