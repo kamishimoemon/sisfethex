@@ -8,18 +8,20 @@ Roles:
 - Institucional	(escuela)	->		Director			->		Director
 - Aplicación de firma		->		Firmador			->		Messenger
 
-Alumno						->		Student
-Asignatura					->		Subject
-Carrera						->		Career
-Jurisdicción				->		Jurisdiction
-Tipo Carrera				->		CareerType
-Establecimiento				->		School
-Tipo Norma Jurisdiccional	->		RegulationType
-Condición Aprobado			->		ApprovalCriteria
-Gestión						->		Management
-Turno						->		Shift
-Nacionalidad				->		Nationality
-Nivel Educación				->		EducationLevel
-Sexo						->		Gender
-Tipo Documento				->		IDType
-Tramite						->		Certificate
+Alumno						->		Student				->		Entity
+Asignatura					->		Subject				->		Entity
+Carrera						->		Career				->		Entity
+Estado Carrera				->		CareerStatus		->		Value Object
+Jurisdicción				->		Jurisdiction 		->		Entity
+Tipo Carrera				->		CareerType			->		Value Object
+Establecimiento				->		School				->		Value Object
+Tipo Norma Jurisdiccional	->		RegulationType		->		Value Object
+Condición Aprobado			->		ApprovalCriteria	->		Value Object
+Gestión						->		Management			->		Value Object
+Turno						->		Shift				->		Value Object
+Nacionalidad				->		Nationality			->		Value Object
+Nivel Educación				->		EducationLevel		->		Value Object
+Sexo						->		Gender				->		Value Object
+Tipo Documento				->		IDType				->		Value Object
+Tramite						->		Certificate			->		Entity
+Estado Tramite				->		CertificateStatus	->		Value Object
